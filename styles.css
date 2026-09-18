@@ -1,0 +1,375 @@
+.reveal .slides section.title-slide-custom {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 4%;
+}
+.reveal .eyebrow {
+  color: #c9902f;
+  font-weight: 700;
+  font-size: 0.62em;
+  letter-spacing: 0.02em;
+  margin-bottom: 2.2em;
+}
+.reveal .main-title {
+  color: #6e1f3a;
+  font-size: 1.55em;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 2em;
+  text-align: left;
+}
+.reveal .discipline {
+  color: #b5251f;
+  font-weight: 700;
+  font-size: 0.55em;
+  margin-bottom: 2.6em;
+}
+.reveal .author-block {
+  color: #4a5a72;
+  font-size: 0.5em;
+  line-height: 1.7;
+}
+.reveal .slides section.info-slide {
+  text-align: left;
+  padding: 0;
+}
+.reveal .info-header {
+  background-color: #6e1f3a;
+  width: 100%;
+  position: relative;
+  padding: 0.55em 1.4em 0.55em 1.4em;
+  margin: 0 0 1.1em 0;
+  box-sizing: border-box;
+  min-height: 1.8em;
+  display: flex;
+  align-items: center;
+}
+.reveal .info-label {
+  position: absolute;
+  top: 0.3em;
+  left: 1.4em;
+  color: #e8a33d;
+  font-size: 0.32em;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+.reveal .info-title {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.9em;
+  line-height: 1.3;
+}
+.reveal .info-body {
+  padding: 0 1.4em;
+  color: #1a1a1a;
+  font-size: 0.8em;
+  line-height: 1.6;
+}
+.reveal .info-body p {
+  margin-bottom: 1.1em;
+}
+.reveal .info-body a {
+  color: #1a56db;
+  text-decoration: underline;
+}
+
+.info-body li::marker,
+.text-box li::marker {
+  content: "▸ ";
+  color: #9d4567;
+  font-size: 1.1em;
+}
+
+.tittle-box2 .katex {
+  font-size: 0.9em !important;
+}
+
+.tittle-box2 mjx-container {
+  font-size: 0.9em !important;
+}
+
+/* =========================================================
+   ROTEIRO
+   ========================================================= */
+
+.reveal .roadmap-slide {
+  text-align: left;
+  padding: 0;
+}
+
+/* Corpo do slide */
+
+.reveal .roadmap-body {
+  padding: 4.0em 1.8em 0 1.8em;
+}
+
+
+/* =========================================================
+   LINHA DO PERCURSO
+   ========================================================= */
+
+.reveal .roadmap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+
+
+/* =========================================================
+   QUADROS
+   ========================================================= */
+
+.reveal .roadmap-card {
+  width: 6.00em;
+  height: 2.10em;
+  flex: 0 0 6.00em;
+
+  background-color: #ffffff;
+  border: 0.025em solid #9d4567;
+  border-radius: 0.08em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  box-sizing: border-box;
+}
+
+.reveal .roadmap-card.active {
+  background-color: #9d4567;
+  border-color: #9d4567;
+}
+
+.reveal .roadmap-card-title {
+  color: #a41f3f;
+  font-size: 0.58em;
+  font-weight: 700;
+  line-height: 1 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.reveal .roadmap-card-title p {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1 !important;
+}
+
+.reveal .roadmap-card.active .roadmap-card-title {
+  color: #ffffff;
+}
+
+.reveal .roadmap-card-subtitle {
+  color: #303030;
+  font-size: 0.42em;
+  line-height: 1 !important;
+  text-align: center;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.reveal .roadmap-card-subtitle p {
+  margin: 0.1em 0 0 0 !important;
+  padding: 0 !important;
+  line-height: 1 !important;
+}
+
+.reveal .roadmap-card.active .roadmap-card-subtitle {
+  color: #ffffff;
+}
+
+/* =========================================================
+   SETAS
+   ========================================================= */
+
+.reveal .roadmap-arrow {
+  width: 0.36em;
+  flex: 0 0 0.36em;
+
+  color: #303030;
+
+  font-size: 0.78em;
+  font-weight: 700;
+
+  text-align: center;
+  line-height: 1;
+}
+
+.reveal .roadmap-arrow.fragment {
+  visibility: hidden;
+}
+
+.reveal .roadmap-arrow.fragment.visible {
+  visibility: visible;
+}
+
+.reveal .roadmap-card.fragment {
+  visibility: hidden;
+}
+
+.reveal .roadmap-card.fragment.visible {
+  visibility: visible;
+}
+
+.reveal .roadmap-arrow.fragment {
+  visibility: hidden;
+}
+
+.reveal .roadmap-arrow.fragment.visible {
+  visibility: visible;
+}
+
+/* =========================================================
+   MENSAGEM
+   ========================================================= */
+
+.reveal .roadmap-message {
+  margin-top: 3.45em;
+
+  color: #26364d;
+
+  font-size: 0.80em;
+  font-weight: 700;
+
+  line-height: 1.35;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   FRAGMENTOS
+   ========================================================= */
+
+/*
+   Mantém a posição dos quadros durante a animação.
+*/
+
+.reveal .roadmap-card.fragment {
+  visibility: hidden;
+}
+
+.reveal .roadmap-card.fragment.visible {
+  visibility: visible;
+}
+
+/* ================================
+   SLIDE COM DOIS QUADROS
+   ================================ */
+
+.reveal .two-box-slide {
+  left: 0;
+  text-align: left;
+  padding: 0;
+}
+
+.reveal .two-box-body {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  gap: 0.45em;
+  width: 100%;
+  padding: 0 1.4em;
+  box-sizing: border-box;
+  margin-top: 0.5em;
+}
+
+.reveal .text-box {
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 0.45em 0.55em;
+
+  background-color: #ffffff;
+  border: 0.025em solid #9d4567;
+  border-radius: 0.08em;
+
+  box-sizing: border-box;
+}
+
+.reveal .text-box h3 {
+  color: #9d4567;
+  font-size: 0.42em;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 0.25em 0;
+}
+
+.reveal .text-box p {
+  color: #303030;
+  font-size: 0.60em;
+  line-height: 1.35;
+  margin: 0;
+}
+
+.reveal .tittle-box p {
+  color: #9d4567;
+  font-size: 0.80em;
+  text-align: center;
+}
+
+.reveal .text-box2 {
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 0.45em 0.55em;
+
+  background-color: #fff5f9;
+  border: 0.025em solid #9d4567;
+  border-radius: 0.08em;
+
+  box-sizing: border-box;
+}
+
+.reveal .text-box2 h3 {
+  color: #9d4567;
+  font-size: 0.42em;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 0.25em 0;
+}
+
+.reveal .text-box2 p {
+  color: #303030;
+  font-size: 0.60em;
+  line-height: 1.35;
+  margin: 0;
+}
+
+.reveal .tittle-box2 p {
+  color: #9d4567;
+  font-size: 0.80em;
+  text-align: center;
+}
+
+/* =========================================================
+   LOGOS INSTITUCIONAIS
+   ========================================================= */
+
+.reveal .slide-logos {
+  position: absolute;
+  right: 1.2em;
+  bottom: 0.7em;
+
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+
+  z-index: 100;
+}
+
+.reveal .slide-logos img {
+  height: 1.2em;
+  width: auto;
+
+  margin: 0;
+  padding: 0;
+
+  object-fit: contain;
+}
